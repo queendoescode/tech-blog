@@ -1,0 +1,14 @@
+[
+  {
+    "title": "How to be a great developer",
+    "body": "Drink coffee. Read documentation. Write comments. Test everything."
+  },
+  {
+    "title": "Learning SQL",
+    "body": "Please study SQL very carefully. Here are the best resources I have found:"
+  },
+  {
+    "title": "Debugging Techniques",
+    "body": "Drink coffee."
+  }
+]
