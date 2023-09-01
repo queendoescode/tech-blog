@@ -18,6 +18,19 @@ Post.init(
     body: {
       type: DataTypes.STRING,
       allowNull: false
+    },
+    user_id: {
+      type: DataTypes.INTEGER,
+      allowNull: false,
+      references: {
+        model: 'user',
+        key: 'id',
+      },
+    },
+    post_date: {
+      type: DataTypes.DATE,
+      allowNull: false,
+      defaultValue: Sequelize.fn('now')
     }
   },
   {
