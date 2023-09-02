@@ -34,3 +34,24 @@ section div {
   font-style: italic;
   float: right;
 }
+
+label {
+  display: block;
+  margin-bottom: 0.4em;
+}
+
+input, textarea {
+  display: block;
+  width: 100%;
+  margin-bottom: 1.2em;
+  padding: 0.4em;
+}
+
+button {
+  border-radius: 6px;
+  width: 80%;
+  font-size: 110%;
+  padding: 0.3em;
+  margin: 0 auto;
+  display: block;
+}
