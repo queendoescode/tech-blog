@@ -1,0 +1,17 @@
+
+{{#each posts as |post|}}
+
+  {{> post-partial}}
+
+{{/each}}
+
+<h3>Create a post:</h3>
+
+<form id="post-form">
+  <label for="title">Title:</label>
+  <input type="text" id="title">
+
+  <textarea id="body" placeholder="Type your post here..."></textarea>
+
+  <button type="submit">Submit</button>
+</form>
