@@ -1,17 +1,15 @@
 
 {{#each posts as |post|}}
 
-
   <section>
     <div>
       {{format_date post_date}}
     </div>
-    <h2><a href="/edit-post/{{id}}">{{title}}</a></h2>
+    <h2><a href="/dashboard/edit-post/{{id}}">{{title}}</a></h2>
   </section>
-
 
 {{/each}}
 
-<a href="/create-post">
+<a href="/dashboard/create-post">
   <button>+ New Post</button>
 </a>
