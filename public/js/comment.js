@@ -15,7 +15,7 @@ const commentFormHandler = async (event) => {
     if (response.ok) {
       document.location.replace(`/post/${postId}`);
     } else {
-      alert('There was a problem signing up.');
+      alert('There was a problem creating the comment.');
     }
   }
 };
