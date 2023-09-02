@@ -18,10 +18,12 @@
 
 {{/each}}
 
-<form id="comment-form">
-  <input type="hidden" id="post-id" value="{{post.id}}">
+{{#if loggedIn}}
+  <form id="comment-form">
+    <input type="hidden" id="post-id" value="{{post.id}}">
 
-  <label for="comment">Comment:</label>
-  <textarea id="comment"></textarea>
-  <button type="submit">Submit</button>
-</form>
+    <label for="comment">Comment:</label>
+    <textarea id="comment"></textarea>
+    <button type="submit">Submit</button>
+  </form>
+{{/if}}
