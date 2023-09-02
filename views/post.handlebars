@@ -1,5 +1,14 @@
 {{> post-partial post}}
 
+{{#each post.Comments as |comment|}}
+
+  <p>
+    {{comment.body}} 
+    <em>— {{comment.User.username}}, {{format_date comment_date}}</em>
+  </p>
+
+{{/each}}
+
 <form id="comment-form">
   <input type="hidden" id="post-id" value="{{post.id}}">
 

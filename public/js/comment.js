@@ -13,7 +13,7 @@ const commentFormHandler = async (event) => {
     });
 
     if (response.ok) {
-      document.location.replace('/');
+      document.location.replace(`/post/${postId}`);
     } else {
       alert('There was a problem signing up.');
     }
