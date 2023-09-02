@@ -1,14 +1,6 @@
 
 {{#each posts as |post|}}
 
-  <section>
-    <div>
-      Posted by {{post.User.username}} on {{format_date post_date}}
-    </div>
-    <h2>{{post.title}}</h2>
-    <p>
-      {{post.body}}
-    </p>
-  </section>
+  {{> post-partial}}
 
 {{/each}}
