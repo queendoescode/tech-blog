@@ -11,14 +11,18 @@
   <header>
     <nav>
       <a href="/">Home</a>
-      <a href="/dashboard">Dashboard</a>
       {{#if loggedIn}}
+        <a href="/dashboard">Dashboard</a>
         <a href="/logout" id="logout">Logout</a>
       {{else}}
         <a href="/login">Login</a>
       {{/if}}
     </nav>
-    <h1>The Tech Blog</h1>
+    {{#if dashboard}}
+      <h1>Your dashboard</h1>
+    {{else}}
+      <h1>The Tech Blog</h1>
+    {{/if}}
   </header>
 
   <main>
