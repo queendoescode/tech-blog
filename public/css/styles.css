@@ -30,6 +30,10 @@ nav a {
   margin-right: 2em;
 }
 
+a {
+  text-decoration: none;
+}
+
 section div {
   font-style: italic;
   float: right;
@@ -52,6 +56,6 @@ button {
   width: 80%;
   font-size: 110%;
   padding: 0.3em;
-  margin: 0 auto;
+  margin: 0 auto 0.8em auto;
   display: block;
 }
