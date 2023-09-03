@@ -14,7 +14,8 @@ const PORT = process.env.PORT || 3001;
 
 const sess = {
   secret: process.env.SESSION_SECRET,
-  cookie: {},
+  cookie: { maxAge: 30*60*1000 }, // cookie will expire after 30 minutes
+  rolling: true, // user activity on the site will reset the expiration timer
   resave: false,
   saveUninitialized: true,
   store: new SequelizeStore({
