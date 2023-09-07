@@ -11,7 +11,7 @@ Features:
 
 ## Screenshots
 
-![A screenshot of the blog tool in use](./screenshot.png)
+![A screenshot of the blog tool in use](./Screenshot%202023-09-07%20at%202.53.54%20PM.png)
 
 ## Links
 
