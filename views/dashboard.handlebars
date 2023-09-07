@@ -2,10 +2,12 @@
 {{#each posts as |post|}}
 
   <section>
-    <div>
-      {{format_date post_date}}
+    <div class="post-header">
+      <div>
+        {{format_date post_date}}
+      </div>
+      <h2><a href="/dashboard/edit-post/{{id}}">{{title}}</a></h2>
     </div>
-    <h2><a href="/dashboard/edit-post/{{id}}">{{title}}</a></h2>
   </section>
 
 {{/each}}
