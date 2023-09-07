@@ -11,7 +11,7 @@ Features:
 
 ## Screenshots
 
-![A screenshot of the blog tool in use]( )
+![A screenshot of the blog tool in use](./screenshot.png)
 
 ## Links
 
