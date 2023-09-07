@@ -6,8 +6,6 @@ const { Post, User, Comment } = require('../../models');
 
 
 const checkLoginMiddleware = (req, res, next) => {
-  console.log(`checkLoginMiddleware:`)
-  console.log(req.session)
   if (req.session.logged_in) {
     // User is logged in, proceed
     next();
